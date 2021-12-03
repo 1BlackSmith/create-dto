@@ -1,0 +1,26 @@
+{
+    "require": {
+        "andreyryabin/sprint.migration": "^3.30",
+        "spaceonfire/bitrix-tools": "^0.8.9",
+        "spaceonfire/bmf": "^1.0",
+        "spaceonfire/collection": "^2.5",
+        "spaceonfire/common": "^2.5",
+        "spaceonfire/container": "^2.5",
+        "spaceonfire/data-source": "^2.5",
+        "spaceonfire/data-source-bitrix": "^2.5.1",
+        "spaceonfire/value-object": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pwd\\": "local/lib"
+        }
+    },
+    "extra": {
+        "installer-paths": {
+            "bitrix/modules/{$name}/": [
+                "type:bitrix-module",
+                "type:bitrix-d7-module"
+            ]
+        }
+    }
+}
